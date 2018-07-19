@@ -20,3 +20,14 @@ C:\Prj\Repository\Repository\Repository\obj\Debug\Repository.csproj.CoreCompileI
 C:\Prj\Repository\Repository\Repository\obj\Debug\Repository.csproj.CopyComplete
 C:\Prj\Repository\Repository\Repository\obj\Debug\Repository.exe
 C:\Prj\Repository\Repository\Repository\obj\Debug\Repository.pdb
+C:\Prj\Repository\Repository\bin\Debug\Repository.exe.config
+C:\Prj\Repository\Repository\bin\Debug\Repository.exe
+C:\Prj\Repository\Repository\bin\Debug\Repository.pdb
+C:\Prj\Repository\Repository\bin\Debug\EntityFramework.dll
+C:\Prj\Repository\Repository\bin\Debug\EntityFramework.SqlServer.dll
+C:\Prj\Repository\Repository\bin\Debug\EntityFramework.xml
+C:\Prj\Repository\Repository\bin\Debug\EntityFramework.SqlServer.xml
+C:\Prj\Repository\Repository\obj\Debug\Repository.csproj.CoreCompileInputs.cache
+C:\Prj\Repository\Repository\obj\Debug\Repository.csproj.CopyComplete
+C:\Prj\Repository\Repository\obj\Debug\Repository.exe
+C:\Prj\Repository\Repository\obj\Debug\Repository.pdb

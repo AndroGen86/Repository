@@ -9,6 +9,7 @@ namespace Repository.Configurations
         {
             ToTable("User");
             HasKey(x => x.Id);
+            HasMany(x => x.Addresses).WithRequired().HasForeignKey(y => y.UserId);
         }
     }
 }

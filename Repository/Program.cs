@@ -12,12 +12,17 @@ namespace Repository
             Console.WriteLine("Hello!");
             
             string connectionStr = ConfigurationManager.ConnectionStrings["DbConnection"].ConnectionString;
-            
-            var unitOfWork = new UnitOfWork(new RepoDbContext(connectionStr));
-            var repo = unitOfWork.UserRepository;
-            
 
-            while (true)
+            var unitOfWork = new UnitOfWork(new RepoDbContext(connectionStr));
+            var repo = unitOfWork.GetRepository<User>();
+
+            var user = repo.Find(1);
+            user.Addresses.First().Name = "ChangedAddress";
+            user.Addresses.Add(new Address { Name = "Belarus, Minsk", UserId = 1 });
+            repo.Update(user);
+            unitOfWork.Save();
+
+            /*while (true)
             {
                 var users = repo.GetAll();
 
@@ -74,7 +79,7 @@ namespace Repository
                     }
                     unitOfWork.Save();
                 }
-            }
+            }*/
         }
     }
 }
